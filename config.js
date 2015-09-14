@@ -50,7 +50,7 @@
   config.logging = {
     // The logging level of the messages. Messages with a level equal or superior to this will be logged.
     //  Accepted values are: "DEBUG", "INFO", "WARN", "ERROR" and "FATAL". Default value: "INFO".
-    level: 'INFO',
+    level: 'DEBUG',
     // The time in seconds between proof of life logging messages informing that the server is up and running normally.
     //  Default value: "60"
     proofOfLifeInterval: '60'
@@ -65,6 +65,14 @@
     port: '1026',
     // The path where the Context Broker will be expecting requests. Default value: "/v1".
     path: '/v1'
+  };
+
+  // Third Party default server configuration
+  //--------------------------
+  config.thirdParty = {
+    method: 'GET',
+    endpoint: 'http://the-third-party.com',
+    payload: {}
   };
 
   module.exports = config;
