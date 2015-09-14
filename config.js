@@ -71,7 +71,7 @@
   //--------------------------
   config.thirdParty = {
     method: 'GET',
-    endpoint: 'http://the-third-party.com',
+    endpoint: 'http://www.google.com',
     payload: {}
   };
 
