@@ -72,7 +72,8 @@
   config.thirdParty = {
     method: 'POST',
     endpoint: 'http://localhost:6500/sync/request',
-    payload: {}
+    payload: {},
+    notificationDelay: 10000 // milliseconds
   };
 
   module.exports = config;
