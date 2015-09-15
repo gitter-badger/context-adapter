@@ -70,8 +70,8 @@
   // Third Party default server configuration
   //--------------------------
   config.thirdParty = {
-    method: 'GET',
-    endpoint: 'http://www.google.com',
+    method: 'POST',
+    endpoint: 'http://localhost:6500/sync/request',
     payload: {}
   };
 
