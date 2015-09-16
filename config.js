@@ -71,8 +71,7 @@
   //--------------------------
   config.thirdParty = {
     method: 'POST',
-    endpoint: 'http://localhost:6500/sync/request',
-    payload: {},
+    endpoint: 'http://localhost:6500/sync/request'
     notificationDelay: 10000 // milliseconds
   };
 
