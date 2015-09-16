@@ -62,7 +62,7 @@
     // The host where the Context Broker will be started. Default value: "localhost".
     host: 'localhost',
     // The port where the Context Broker will be listening. Default value: "1206".
-    port: '1026',
+    port: '10026',
     // The path where the Context Broker will be expecting requests. Default value: "/v1".
     path: '/v1'
   };
